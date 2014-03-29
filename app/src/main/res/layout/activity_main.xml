@@ -46,11 +46,4 @@
         android:id="@+id/msgBtn3"
         android:layout_alignTop="@+id/msgBtn1"
         android:layout_centerHorizontal="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/msgBtn1" />
 </RelativeLayout>
