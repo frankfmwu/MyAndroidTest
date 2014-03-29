@@ -32,7 +32,8 @@ public class MainActivity extends ActionBarActivity {
         btn2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                msgView.setText("The world is waiting for my exploration.\n");           }
+                msgView.setText("The world is waiting for my exploration.\n");
+            }
         });
 
         btn3.setOnClickListener(new View.OnClickListener() {
