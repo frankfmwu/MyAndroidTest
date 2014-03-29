@@ -28,7 +28,8 @@
         android:layout_below="@+id/messageView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="35dp" />
+        android:layout_marginTop="35dp"
+        android:clickable="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -36,8 +37,7 @@
         android:text="@string/MsgBtn2"
         android:id="@+id/msgBtn2"
         android:layout_alignTop="@+id/msgBtn1"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -45,23 +45,7 @@
         android:text="@string/MsgBtn3"
         android:id="@+id/msgBtn3"
         android:layout_alignTop="@+id/msgBtn2"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
-    <SeekBar
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/seekBar"
-        android:layout_below="@+id/msgBtn3"
-        android:layout_toLeftOf="@+id/msgBtn3"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="192dp" />
-
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New CheckBox"
-        android:id="@+id/checkBox"
-        android:layout_below="@+id/msgBtn3"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="78dp" />
 </RelativeLayout>
