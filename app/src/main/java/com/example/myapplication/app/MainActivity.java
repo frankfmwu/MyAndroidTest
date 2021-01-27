@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class MyActivity 
 {
-    
+    OnClickListener(); 
 }
 
 public class MainActivity extends ActionBarActivity {
