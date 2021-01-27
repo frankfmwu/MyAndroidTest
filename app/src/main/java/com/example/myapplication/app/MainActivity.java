@@ -8,6 +8,11 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+public class MyActivity 
+{
+    
+}
+
 public class MainActivity extends ActionBarActivity {
 
     Button btn1, btn2, btn3;
